@@ -1,0 +1,22 @@
+{
+  "name": "nano-grid-extended",
+  "version": "1.0.0",
+  "description": "Grid System",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.50.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguel-rivas"
+  },
+  "author": "Miguel Rivas",
+  "license": "MIT",
+  "homepage": "http://miguel-rivas.github.io",
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  }
+}
