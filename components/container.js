@@ -1,7 +1,4 @@
-import { prepairClasses } from "../modules/helpers";
-
-const nano = 'nn-';
-
+import { prepairClasses, nano } from "../modules/helpers";
 export default class Container extends HTMLElement {
   constructor() {
     super();

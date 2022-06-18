@@ -1,5 +1,6 @@
-import { prepairClasses, validateProp } from "../modules/helpers";
+import { prepairClasses, validateProp, nano } from "../modules/helpers";
 import { directionsType, colorsType } from "../modules/types";
+
 export default class Icon extends HTMLElement {
   constructor() {
     super();
@@ -7,7 +8,7 @@ export default class Icon extends HTMLElement {
 
   connectedCallback() {
     const color = validateProp('nn-icon', 'color', this.getAttribute('color'), colorsType, '');
-    const glyph = this.hasAttribute('glyph') ? this.getAttribute('glyph') : '';
+    const glyph = this.hasAttribute('glyph') ? nano + this.getAttribute('glyph') : '';
     const direction = validateProp('nn-icon', 'direction', this.getAttribute('direction'), directionsType, 'down');
 
     const classes = prepairClasses([

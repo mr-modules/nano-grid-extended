@@ -1,3 +1,7 @@
 @function gcolor($key) {
   @return map-get($global-colors, $key);
 }
+
+@function wc($name, $prefix: "", $suffix: "") {
+  @return unquote("#{$prefix} #{$nano}#{$name}#{$suffix}, #{$prefix} .#{$nano}#{$name}#{$suffix}");
+}

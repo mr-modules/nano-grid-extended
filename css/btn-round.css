@@ -1,0 +1,313 @@
+.nn-btn.nn-round {
+  border-radius: 22px;
+}
+.nn-btn.nn-round.nn-silver {
+  background-color: #c0c0c0;
+}
+.nn-btn.nn-round.nn-silver:hover {
+  background-color: #a7a7a7;
+}
+.nn-btn.nn-round.nn-silver:active, .nn-btn.nn-round.nn-silver.nn-active {
+  background-color: #f3f3f3;
+  color: #8d8d8d;
+}
+.nn-btn.nn-round.nn-royal-purple {
+  background-color: #64429c;
+}
+.nn-btn.nn-round.nn-royal-purple:hover {
+  background-color: #4d3378;
+}
+.nn-btn.nn-round.nn-royal-purple:active, .nn-btn.nn-round.nn-royal-purple.nn-active {
+  background-color: #997cc8;
+  color: #362454;
+}
+.nn-btn.nn-round.nn-persian-red {
+  background-color: #d73333;
+}
+.nn-btn.nn-round.nn-persian-red:hover {
+  background-color: #b42323;
+}
+.nn-btn.nn-round.nn-persian-red:active, .nn-btn.nn-round.nn-persian-red.nn-active {
+  background-color: #e88888;
+  color: #891b1b;
+}
+.nn-btn.nn-round.nn-denim {
+  background-color: #116ec4;
+}
+.nn-btn.nn-round.nn-denim:hover {
+  background-color: #0d5495;
+}
+.nn-btn.nn-round.nn-denim:active, .nn-btn.nn-round.nn-denim.nn-active {
+  background-color: #4ca1ef;
+  color: #093966;
+}
+.nn-btn.nn-round.nn-gold-tips {
+  background-color: #e6b031;
+}
+.nn-btn.nn-round.nn-gold-tips:hover {
+  background-color: #cb9619;
+}
+.nn-btn.nn-round.nn-gold-tips:active, .nn-btn.nn-round.nn-gold-tips.nn-active {
+  background-color: #f1d38c;
+  color: #9e7413;
+}
+.nn-btn.nn-round.nn-shamrock {
+  background-color: #34ce7e;
+}
+.nn-btn.nn-round.nn-shamrock:hover {
+  background-color: #28a765;
+}
+.nn-btn.nn-round.nn-shamrock:active, .nn-btn.nn-round.nn-shamrock.nn-active {
+  background-color: #86e2b2;
+  color: #1e7e4c;
+}
+.nn-btn.nn-round.nn-cod-grey {
+  background-color: #1b1b1b;
+}
+.nn-btn.nn-round.nn-cod-grey:hover {
+  background-color: #020202;
+}
+.nn-btn.nn-round.nn-cod-grey:active, .nn-btn.nn-round.nn-cod-grey.nn-active {
+  background-color: #4e4e4e;
+  color: black;
+}
+.nn-btn.nn-round.nn-gravel {
+  background-color: #6e6e6e;
+}
+.nn-btn.nn-round.nn-gravel:hover {
+  background-color: #555555;
+}
+.nn-btn.nn-round.nn-gravel:active, .nn-btn.nn-round.nn-gravel.nn-active {
+  background-color: #a1a1a1;
+  color: #3b3b3b;
+}
+.nn-btn.nn-round.nn-emerald {
+  background-color: #5acf57;
+}
+.nn-btn.nn-round.nn-emerald:hover {
+  background-color: #39bd36;
+}
+.nn-btn.nn-round.nn-emerald:active, .nn-btn.nn-round.nn-emerald.nn-active {
+  background-color: #a8e6a6;
+  color: #2d952b;
+}
+.nn-btn.nn-round.nn-burn-orange {
+  background-color: #f9722e;
+}
+.nn-btn.nn-round.nn-burn-orange:hover {
+  background-color: #ed5407;
+}
+.nn-btn.nn-round.nn-burn-orange:active, .nn-btn.nn-round.nn-burn-orange.nn-active {
+  background-color: #fcb591;
+  color: #bc4205;
+}
+.nn-btn.nn-round.nn-razzmatazz {
+  background-color: #da0040;
+}
+.nn-btn.nn-round.nn-razzmatazz:hover {
+  background-color: #a70031;
+}
+.nn-btn.nn-round.nn-razzmatazz:active, .nn-btn.nn-round.nn-razzmatazz.nn-active {
+  background-color: #ff4179;
+  color: #740022;
+}
+.nn-btn.nn-round.nn-desert {
+  background-color: #a0613d;
+}
+.nn-btn.nn-round.nn-desert:hover {
+  background-color: #7b4b2f;
+}
+.nn-btn.nn-round.nn-desert:active, .nn-btn.nn-round.nn-desert.nn-active {
+  background-color: #cb9678;
+  color: #563421;
+}
+.nn-btn.nn-round.nn-charcoal {
+  background-color: #444444;
+}
+.nn-btn.nn-round.nn-charcoal:hover {
+  background-color: #2b2b2b;
+}
+.nn-btn.nn-round.nn-charcoal:active, .nn-btn.nn-round.nn-charcoal.nn-active {
+  background-color: #777777;
+  color: #111111;
+}
+.nn-btn.nn-round.nn-golden-brown {
+  background-color: #9e6710;
+}
+.nn-btn.nn-round.nn-golden-brown:hover {
+  background-color: #70490b;
+}
+.nn-btn.nn-round.nn-golden-brown:active, .nn-btn.nn-round.nn-golden-brown.nn-active {
+  background-color: #e9a02b;
+  color: #412b07;
+}
+.nn-btn.nn-round.nn-sepia {
+  background-color: #704d16;
+}
+.nn-btn.nn-round.nn-sepia:hover {
+  background-color: #45300e;
+}
+.nn-btn.nn-round.nn-sepia:active, .nn-btn.nn-round.nn-sepia.nn-active {
+  background-color: #c58827;
+  color: #1b1205;
+}
+.nn-btn.nn-round.nn-alizarin {
+  background-color: #e72113;
+}
+.nn-btn.nn-round.nn-alizarin:hover {
+  background-color: #b81a0f;
+}
+.nn-btn.nn-round.nn-alizarin:active, .nn-btn.nn-round.nn-alizarin.nn-active {
+  background-color: #f3766d;
+  color: #89140b;
+}
+.nn-btn.nn-round.nn-rust {
+  background-color: #c84d11;
+}
+.nn-btn.nn-round.nn-rust:hover {
+  background-color: #993b0d;
+}
+.nn-btn.nn-round.nn-rust:active, .nn-btn.nn-round.nn-rust.nn-active {
+  background-color: #f0844f;
+  color: #6a2909;
+}
+.nn-btn.nn-round.nn-blush {
+  background-color: #bf4a67;
+}
+.nn-btn.nn-round.nn-blush:hover {
+  background-color: #9e3851;
+}
+.nn-btn.nn-round.nn-blush:active, .nn-btn.nn-round.nn-blush.nn-active {
+  background-color: #da95a6;
+  color: #782b3e;
+}
+.nn-btn.nn-round.nn-fire-brick {
+  background-color: #a5213a;
+}
+.nn-btn.nn-round.nn-fire-brick:hover {
+  background-color: #7b192b;
+}
+.nn-btn.nn-round.nn-fire-brick:active, .nn-btn.nn-round.nn-fire-brick.nn-active {
+  background-color: #dc506b;
+  color: #50101c;
+}
+.nn-btn.nn-round.nn-sunglow {
+  background-color: #ffcf25;
+}
+.nn-btn.nn-round.nn-sunglow:hover {
+  background-color: #f1bc00;
+}
+.nn-btn.nn-round.nn-sunglow:active, .nn-btn.nn-round.nn-sunglow.nn-active {
+  background-color: #ffe58b;
+  color: #be9400;
+}
+.nn-btn.nn-round.nn-milk-punch {
+  background-color: #f4e7c4;
+}
+.nn-btn.nn-round.nn-milk-punch:hover {
+  background-color: #ecd699;
+}
+.nn-btn.nn-round.nn-milk-punch:active, .nn-btn.nn-round.nn-milk-punch.nn-active {
+  background-color: white;
+  color: #e4c46e;
+}
+.nn-btn.nn-round.nn-yukon-gold {
+  background-color: #8c741d;
+}
+.nn-btn.nn-round.nn-yukon-gold:hover {
+  background-color: #625114;
+}
+.nn-btn.nn-round.nn-yukon-gold:active, .nn-btn.nn-round.nn-yukon-gold.nn-active {
+  background-color: #d6b439;
+  color: #382e0b;
+}
+.nn-btn.nn-round.nn-green-pea {
+  background-color: #20723b;
+}
+.nn-btn.nn-round.nn-green-pea:hover {
+  background-color: #154a26;
+}
+.nn-btn.nn-round.nn-green-pea:active, .nn-btn.nn-round.nn-green-pea.nn-active {
+  background-color: #36c264;
+  color: #0a2212;
+}
+.nn-btn.nn-round.nn-laurel {
+  background-color: #328538;
+}
+.nn-btn.nn-round.nn-laurel:hover {
+  background-color: #246028;
+}
+.nn-btn.nn-round.nn-laurel:active, .nn-btn.nn-round.nn-laurel.nn-active {
+  background-color: #5bc263;
+  color: #163b19;
+}
+.nn-btn.nn-round.nn-elf-green {
+  background-color: #198663;
+}
+.nn-btn.nn-round.nn-elf-green:hover {
+  background-color: #115b43;
+}
+.nn-btn.nn-round.nn-elf-green:active, .nn-btn.nn-round.nn-elf-green.nn-active {
+  background-color: #2dd8a1;
+  color: #093023;
+}
+.nn-btn.nn-round.nn-lake {
+  background-color: #257d93;
+}
+.nn-btn.nn-round.nn-lake:hover {
+  background-color: #1b5a6a;
+}
+.nn-btn.nn-round.nn-lake:active, .nn-btn.nn-round.nn-lake.nn-active {
+  background-color: #4cb7d2;
+  color: #103842;
+}
+.nn-btn.nn-round.nn-cobalt-blue {
+  background-color: #0b4eab;
+}
+.nn-btn.nn-round.nn-cobalt-blue:hover {
+  background-color: #08387b;
+}
+.nn-btn.nn-round.nn-cobalt-blue:active, .nn-btn.nn-round.nn-cobalt-blue.nn-active {
+  background-color: #2b7ef1;
+  color: #05224b;
+}
+.nn-btn.nn-round.nn-mariner {
+  background-color: #3876cc;
+}
+.nn-btn.nn-round.nn-mariner:hover {
+  background-color: #2b5ea6;
+}
+.nn-btn.nn-round.nn-mariner:active, .nn-btn.nn-round.nn-mariner.nn-active {
+  background-color: #89aee1;
+  color: #20477e;
+}
+.nn-btn.nn-round.nn-fuchsia {
+  background-color: #af08aa;
+}
+.nn-btn.nn-round.nn-fuchsia:hover {
+  background-color: #7e067b;
+}
+.nn-btn.nn-round.nn-fuchsia:active, .nn-btn.nn-round.nn-fuchsia.nn-active {
+  background-color: #f528ef;
+  color: #4d044b;
+}
+.nn-btn.nn-round.nn-blue-violet {
+  background-color: #994aed;
+}
+.nn-btn.nn-round.nn-blue-violet:hover {
+  background-color: #7f1ce8;
+}
+.nn-btn.nn-round.nn-blue-violet:active, .nn-btn.nn-round.nn-blue-violet.nn-active {
+  background-color: #cda7f6;
+  color: #6613be;
+}
+.nn-btn.nn-round.nn-purple-heart {
+  background-color: #7d32b0;
+}
+.nn-btn.nn-round.nn-purple-heart:hover {
+  background-color: #612788;
+}
+.nn-btn.nn-round.nn-purple-heart:active, .nn-btn.nn-round.nn-purple-heart.nn-active {
+  background-color: #ae71d7;
+  color: #451b61;
+}

@@ -1,4 +1,4 @@
-.nn-btn {
+.#{$nano}btn {
   font-size: 9pt;
   color: #fff;
   text-align: center;
@@ -11,31 +11,35 @@
   font-weight: bold;
   letter-spacing: 1pt;
   text-transform: uppercase;
-  transition: all 200ms ease;
+  transition: all $transition ease;
   border-radius: 0;
   min-height: 35px;
   width: max(35px, 100%);
   border-width: 0;
   background-color: transparent;
-}
-.nn-btn > span {
-  pointer-events: none;
-}
-.nn-btn input[type=radio],
-.nn-btn input[type=checkbox] {
-  display: none;
-}
-.nn-btn .nn-icon,
-.nn-btn nn-icon {
-  font-size: 14px;
-}
-.nn-btn .nn-icon:not(:only-child),
-.nn-btn nn-icon:not(:only-child) {
-  margin-right: 0.5rem;
-}
-.nn-btn:focus {
-  outline: none;
-}
-.nn-btn:hover {
-  cursor: pointer;
+
+  > span {
+    pointer-events: none;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  .#{$nano}icon,
+  #{$nano}icon {
+    font-size: 14px;
+    &:not(:only-child) {
+      margin-right: 0.5rem;
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
 }

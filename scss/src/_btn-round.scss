@@ -1,0 +1,19 @@
+.#{$nano}btn {
+  &.#{$nano}round {
+    border-radius: 22px;
+    @each $name, $value in $colors {
+      $new-color: darken($value, 10%);
+      &.#{$nano}#{$name} {
+        background-color: $value;
+        &:hover {
+          background-color: $new-color;
+        }
+        &:active,
+        &.#{$nano}active {
+          background-color: lighten($value, 20%);
+          color: darken($value, 20%);
+        }
+      }
+    }
+  }
+}

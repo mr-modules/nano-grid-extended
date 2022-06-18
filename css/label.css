@@ -1,7 +1,6 @@
-.nn-btn {
+.nn-label {
   font-size: 9pt;
   color: #fff;
-  text-align: center;
   text-decoration: none;
   box-sizing: border-box;
   display: inline-flex;
@@ -17,25 +16,13 @@
   width: max(35px, 100%);
   border-width: 0;
   background-color: transparent;
+  border: 0 none transparent;
+  padding: 0.5rem;
+  box-shadow: 0px 3px 0 #dadada;
+  background: transparent;
+  color: #272731;
 }
-.nn-btn > span {
-  pointer-events: none;
-}
-.nn-btn input[type=radio],
-.nn-btn input[type=checkbox] {
-  display: none;
-}
-.nn-btn .nn-icon,
-.nn-btn nn-icon {
-  font-size: 14px;
-}
-.nn-btn .nn-icon:not(:only-child),
-.nn-btn nn-icon:not(:only-child) {
-  margin-right: 0.5rem;
-}
-.nn-btn:focus {
-  outline: none;
-}
-.nn-btn:hover {
-  cursor: pointer;
+.nn-dark .nn-label {
+  box-shadow: 0px 3px 0 #101015;
+  color: #eee;
 }

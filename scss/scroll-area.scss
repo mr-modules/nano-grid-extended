@@ -40,8 +40,7 @@
   }
 }
 
-.nn-scroll-area,
-nn-scroll-area {
+#{wc("scroll-area")} {
   overflow: auto;
   padding: 0;
   background: transparent;
@@ -51,22 +50,22 @@ nn-scroll-area {
   width: 100%;
   display: block;
 
-  &.no-horizontal {
+  &.#{$nano}no-horizontal {
     overflow-x: hidden;
   }
 
-  &.no-vertical {
+  &.#{$nano}no-vertical {
     overflow-y: hidden;
   }
 
   @include scrollbar-base(gcolor("silver"), rgb(249, 249, 249));
-  .nano-dark & {
+  .#{$nano}dark & {
     @include scrollbar-base(gcolor("gravel"), gcolor("cod-grey"));
   }
 
   @include scrollbar("silver");
   @each $name, $value in $colors {
-    &.#{$name} {
+    &.#{$nano}#{$name} {
       @include scrollbar($name);
     }
   }
