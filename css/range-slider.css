@@ -1,9 +1,12 @@
 .nn-range {
   -webkit-appearance: none;
-  margin: 10px 0;
   width: 100%;
   border: none;
-  background: transparent;
+  background-color: var(--nn-input-color-background);
+  box-shadow: 0px 3px 0 var(--nn-input-color-shadow);
+  padding: 0.5rem;
+  min-height: 35px;
+  margin: 0 0 0.5rem;
 }
 .nn-range.nn-silver::-webkit-slider-thumb {
   background: #adadad;
@@ -15,16 +18,16 @@
   background: #adadad;
 }
 .nn-range.nn-silver::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-silver::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-silver::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-silver::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-silver:hover::-webkit-slider-runnable-track {
   background: #c0c0c0;
@@ -48,16 +51,16 @@
   background: #533781;
 }
 .nn-range.nn-royal-purple::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-royal-purple::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-royal-purple::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-royal-purple::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-royal-purple:hover::-webkit-slider-runnable-track {
   background: #64429c;
@@ -81,16 +84,16 @@
   background: #be2525;
 }
 .nn-range.nn-persian-red::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-persian-red::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-persian-red::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-persian-red::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-persian-red:hover::-webkit-slider-runnable-track {
   background: #d73333;
@@ -114,16 +117,16 @@
   background: #0e5aa1;
 }
 .nn-range.nn-denim::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-denim::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-denim::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-denim::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-denim:hover::-webkit-slider-runnable-track {
   background: #116ec4;
@@ -147,16 +150,16 @@
   background: #d79e1a;
 }
 .nn-range.nn-gold-tips::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-gold-tips::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-gold-tips::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-gold-tips::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-gold-tips:hover::-webkit-slider-runnable-track {
   background: #e6b031;
@@ -180,16 +183,16 @@
   background: #2bb16b;
 }
 .nn-range.nn-shamrock::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-shamrock::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-shamrock::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-shamrock::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-shamrock:hover::-webkit-slider-runnable-track {
   background: #34ce7e;
@@ -213,16 +216,16 @@
   background: #080808;
 }
 .nn-range.nn-cod-grey::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-cod-grey::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-cod-grey::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-cod-grey::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-cod-grey:hover::-webkit-slider-runnable-track {
   background: #1b1b1b;
@@ -246,16 +249,16 @@
   background: #5b5b5b;
 }
 .nn-range.nn-gravel::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-gravel::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-gravel::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-gravel::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-gravel:hover::-webkit-slider-runnable-track {
   background: #6e6e6e;
@@ -279,16 +282,16 @@
   background: #3dc739;
 }
 .nn-range.nn-emerald::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-emerald::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-emerald::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-emerald::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-emerald:hover::-webkit-slider-runnable-track {
   background: #5acf57;
@@ -312,16 +315,16 @@
   background: #f85909;
 }
 .nn-range.nn-burn-orange::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-burn-orange::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-burn-orange::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-burn-orange::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-burn-orange:hover::-webkit-slider-runnable-track {
   background: #f9722e;
@@ -345,16 +348,16 @@
   background: #b40035;
 }
 .nn-range.nn-razzmatazz::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-razzmatazz::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-razzmatazz::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-razzmatazz::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-razzmatazz:hover::-webkit-slider-runnable-track {
   background: #da0040;
@@ -378,16 +381,16 @@
   background: #845032;
 }
 .nn-range.nn-desert::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-desert::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-desert::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-desert::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-desert:hover::-webkit-slider-runnable-track {
   background: #a0613d;
@@ -411,16 +414,16 @@
   background: #313131;
 }
 .nn-range.nn-charcoal::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-charcoal::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-charcoal::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-charcoal::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-charcoal:hover::-webkit-slider-runnable-track {
   background: #444444;
@@ -444,16 +447,16 @@
   background: #7b500c;
 }
 .nn-range.nn-golden-brown::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-golden-brown::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-golden-brown::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-golden-brown::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-golden-brown:hover::-webkit-slider-runnable-track {
   background: #9e6710;
@@ -477,16 +480,16 @@
   background: #503710;
 }
 .nn-range.nn-sepia::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-sepia::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-sepia::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-sepia::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-sepia:hover::-webkit-slider-runnable-track {
   background: #704d16;
@@ -510,16 +513,16 @@
   background: #c41c10;
 }
 .nn-range.nn-alizarin::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-alizarin::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-alizarin::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-alizarin::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-alizarin:hover::-webkit-slider-runnable-track {
   background: #e72113;
@@ -543,16 +546,16 @@
   background: #a53f0e;
 }
 .nn-range.nn-rust::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-rust::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-rust::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-rust::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-rust:hover::-webkit-slider-runnable-track {
   background: #c84d11;
@@ -576,16 +579,16 @@
   background: #a83b56;
 }
 .nn-range.nn-blush::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-blush::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-blush::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-blush::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-blush:hover::-webkit-slider-runnable-track {
   background: #bf4a67;
@@ -609,16 +612,16 @@
   background: #851b2f;
 }
 .nn-range.nn-fire-brick::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-fire-brick::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-fire-brick::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-fire-brick::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-fire-brick:hover::-webkit-slider-runnable-track {
   background: #a5213a;
@@ -642,16 +645,16 @@
   background: #fec600;
 }
 .nn-range.nn-sunglow::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-sunglow::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-sunglow::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-sunglow::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-sunglow:hover::-webkit-slider-runnable-track {
   background: #ffcf25;
@@ -675,16 +678,16 @@
   background: #eedaa4;
 }
 .nn-range.nn-milk-punch::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-milk-punch::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-milk-punch::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-milk-punch::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-milk-punch:hover::-webkit-slider-runnable-track {
   background: #f4e7c4;
@@ -708,16 +711,16 @@
   background: #6c5a16;
 }
 .nn-range.nn-yukon-gold::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-yukon-gold::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-yukon-gold::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-yukon-gold::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-yukon-gold:hover::-webkit-slider-runnable-track {
   background: #8c741d;
@@ -741,16 +744,16 @@
   background: #18542c;
 }
 .nn-range.nn-green-pea::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-green-pea::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-green-pea::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-green-pea::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-green-pea:hover::-webkit-slider-runnable-track {
   background: #20723b;
@@ -774,16 +777,16 @@
   background: #28692c;
 }
 .nn-range.nn-laurel::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-laurel::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-laurel::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-laurel::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-laurel:hover::-webkit-slider-runnable-track {
   background: #328538;
@@ -807,16 +810,16 @@
   background: #13664b;
 }
 .nn-range.nn-elf-green::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-elf-green::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-elf-green::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-elf-green::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-elf-green:hover::-webkit-slider-runnable-track {
   background: #198663;
@@ -840,16 +843,16 @@
   background: #1d6374;
 }
 .nn-range.nn-lake::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-lake::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-lake::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-lake::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-lake:hover::-webkit-slider-runnable-track {
   background: #257d93;
@@ -873,16 +876,16 @@
   background: #093e87;
 }
 .nn-range.nn-cobalt-blue::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-cobalt-blue::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-cobalt-blue::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-cobalt-blue::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-cobalt-blue:hover::-webkit-slider-runnable-track {
   background: #0b4eab;
@@ -906,16 +909,16 @@
   background: #2d64b1;
 }
 .nn-range.nn-mariner::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-mariner::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-mariner::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-mariner::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-mariner:hover::-webkit-slider-runnable-track {
   background: #3876cc;
@@ -939,16 +942,16 @@
   background: #8a0686;
 }
 .nn-range.nn-fuchsia::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-fuchsia::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-fuchsia::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-fuchsia::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-fuchsia:hover::-webkit-slider-runnable-track {
   background: #af08aa;
@@ -972,16 +975,16 @@
   background: #8527ea;
 }
 .nn-range.nn-blue-violet::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-blue-violet::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-blue-violet::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-blue-violet::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-blue-violet:hover::-webkit-slider-runnable-track {
   background: #994aed;
@@ -1005,16 +1008,16 @@
   background: #682a92;
 }
 .nn-range.nn-purple-heart::-webkit-slider-runnable-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-purple-heart::-moz-range-track {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-purple-heart::-ms-fill-lower {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-purple-heart::-ms-fill-upper {
-  background: var(--color-background-input2);
+  background: var(--color-scroll-area-track-color);
 }
 .nn-range.nn-purple-heart:hover::-webkit-slider-runnable-track {
   background: #7d32b0;
@@ -1093,4 +1096,7 @@
 }
 .nn-range:focus {
   outline: none;
+}
+.nn-range:hover {
+  box-shadow: 0px 3px 0 var(--nn-input-color-shadow-hover);
 }
