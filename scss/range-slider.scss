@@ -17,16 +17,16 @@
       background: $thumb;
     }
     &::-webkit-slider-runnable-track {
-      background: var(--color-background-input2);
+      background: var(--color-scroll-area-track-color);
     }
     &::-moz-range-track {
-      background: var(--color-background-input2);
+      background: var(--color-scroll-area-track-color);
     }
     &::-ms-fill-lower {
-      background: var(--color-background-input2);
+      background: var(--color-scroll-area-track-color);
     }
     &::-ms-fill-upper {
-      background: var(--color-background-input2);
+      background: var(--color-scroll-area-track-color);
     }
 
     &:hover {
