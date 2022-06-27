@@ -1,22 +1,34 @@
-import { prepairClasses, validateProp, nano } from "../modules/helpers";
-import { directionsType, colorsType } from "../modules/types";
+import { prepairClasses, validateProp, nano, cleanNano } from "../modules/helpers";
+import { directionsType } from "../modules/types";
 
 export default class Icon extends HTMLElement {
   constructor() {
     super();
   }
 
-  connectedCallback() {
-    const color = validateProp('nn-icon', 'color', this.getAttribute('color'), colorsType, '');
+  updateClasses() {
     const glyph = this.hasAttribute('glyph') ? nano + this.getAttribute('glyph') : '';
     const direction = validateProp('nn-icon', 'direction', this.getAttribute('direction'), directionsType, 'down');
-
+    
+    this.className = "";
     const classes = prepairClasses([
-      color,
       glyph,
       direction,
-      this.className,
     ]);
     this.className = classes;
+  }
+
+  connectedCallback() {
+    this.updateClasses();
+  }
+
+  static get observedAttributes() {
+    return ['glyph'];
+  }
+
+  attributeChangedCallback(prop, oldVal, newVal) {
+    if (prop === 'glyph') {
+      this.updateClasses();
+    }
   }
 }

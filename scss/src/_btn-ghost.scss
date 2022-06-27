@@ -4,16 +4,19 @@
 
     @each $name, $value in $colors {
       &.#{$nano}#{$name} {
+        color: $value;
         &:active,
         &.#{$nano}active {
           background-color: lighten($value, 0%);
+          color: darken($value, 20%);
+        }
+        &:hover {
           color: darken($value, 20%);
         }
       }
     }
 
     &:hover {
-      color: rgb(255 255 255);
       background-color: rgb(255 255 255 / 10%);
     }
   }
