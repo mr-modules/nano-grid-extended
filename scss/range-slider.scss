@@ -17,16 +17,16 @@
       background: $thumb;
     }
     &::-webkit-slider-runnable-track {
-      background: var(--color-scroll-area-track-color);
+      background: var(--nn-track-color);
     }
     &::-moz-range-track {
-      background: var(--color-scroll-area-track-color);
+      background: var(--nn-track-color);
     }
     &::-ms-fill-lower {
-      background: var(--color-scroll-area-track-color);
+      background: var(--nn-track-color);
     }
     &::-ms-fill-upper {
-      background: var(--color-scroll-area-track-color);
+      background: var(--nn-track-color);
     }
 
     &:hover {
