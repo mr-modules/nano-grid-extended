@@ -14,9 +14,14 @@
   transition: all $transition ease;
   border-radius: 0;
   min-height: 35px;
-  width: max(35px, 100%);
+  min-width: 35px;
+  width: 100%;
   border-width: 0;
   background-color: transparent;
+
+  &.#{$nano}round {
+    border-radius: 22px;
+  }
 
   > span {
     pointer-events: none;

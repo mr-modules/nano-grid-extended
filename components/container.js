@@ -1,19 +1,33 @@
-import { prepairClasses, nano } from "../modules/helpers";
+import { nano } from "../modules/helpers";
+import { containerSizesType } from "../modules/types";
+
 export default class Container extends HTMLElement {
   constructor() {
     super();
   }
 
+  updateSize() {
+    this.classList.remove(...containerSizesType);
+    const sizeAttr = `${nano}sz${this.getAttribute('size')}`;
+    if (containerSizesType.includes(sizeAttr)) {
+      this.classList.add(sizeAttr);
+    }
+  }
+
   connectedCallback() {
-    const size = this.hasAttribute('size') ? nano + `sz${this.getAttribute('size')}` : undefined;
-    const spacing = this.hasAttribute('spacing') ? nano + `sp${+this.getAttribute('spacing') * 100}` : undefined;
+    this.updateSize();
+  }
 
-    const classes = prepairClasses([
-      size,
-      spacing,
-      this.className,
-    ]);
+  static get observedAttributes() {
+    return ['size'];
+  }
 
-    this.className = classes;
+  attributeChangedCallback(prop) {
+    switch (prop) {
+      case 'size':
+        this.updateSize();
+        break;
+
+    }
   }
 }

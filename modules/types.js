@@ -1,5 +1,4 @@
 export const colorsType = [
-  "nn-",
   "nn-silver",
   "nn-royal-purple",
   "nn-persian-red",
@@ -31,7 +30,6 @@ export const colorsType = [
   "nn-fuchsia",
   "nn-blue-violet",
   "nn-purple-heart",
-  "nn-transparent",
 ];
 
 export const directionsType = [
@@ -40,3 +38,11 @@ export const directionsType = [
   "nn-left",
   "nn-right",
 ];
+
+export const containerSizesType = [
+  "nn-sz400",
+  "nn-sz500",
+  "nn-sz600",
+  "nn-sz900",
+  "nn-sz1450",
+]

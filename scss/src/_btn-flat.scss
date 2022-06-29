@@ -6,8 +6,8 @@
       &.#{$nano}#{$name} {
         box-shadow: 0px 3px 0 $new-color;
         background-color: $value;
+        
         $lightness: lightness($value);
-
         @if ($lightness > 50) {
           color: darken($value, $lightness - 15%);
         } @else {
@@ -21,7 +21,6 @@
         &.#{$nano}active {
           background-color: lighten($value, 20%);
           box-shadow: 0px 3px 0 lighten($value, 10%);
-          color: darken($value, 20%);
         }
       }
     }
